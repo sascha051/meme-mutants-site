@@ -5,39 +5,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Impressum – Meme Mutants</title>
 <style>
-:root{--bg:#faf7ff;--fg:#1d1530;--muted:#5d5470;--card:#fff;--line:#e4dcf2;--accent:#7a2cf0}
-@media (prefers-color-scheme:dark){:root{--bg:#141020;--fg:#efeaf8;--muted:#a89fbd;--card:#1e1830;--line:#342a4a;--accent:#b88cff}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:760px;margin:0 auto;padding:32px 16px 48px}
-nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:28px;font-size:15px}
-a{color:var(--accent)}
-h1{font-size:30px;line-height:1.2;margin:0 0 8px}
-h2{font-size:21px;margin:32px 0 8px}
-.lead{color:var(--muted);margin-top:0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
-ul{padding-left:22px}
-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  :root { --bg: #1b0f33; --panel: #2e1b52; --text: #f4efff; --dim: #b0a8c8; --accent: #7cff6b; --gold: #ffc928; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f6f2ff; --panel: #ffffff; --text: #22163b; --dim: #5b5170; --accent: #1f8f2c; --gold: #9a6a00; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header img { width: 64px; height: 64px; border-radius: 15px; }
+  header a { color: var(--text); text-decoration: none; font-weight: 800; font-size: 22px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 24px 0 8px; }
+  h1 small { color: var(--dim); font-size: 20px; font-weight: 600; }
+  h2 { margin-top: 40px; padding-top: 16px; border-top: 1px solid color-mix(in srgb, var(--dim) 35%, transparent); color: var(--gold); }
+  li { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  .card { background: var(--panel); border-radius: 18px; padding: 18px 20px; margin: 16px 0; }
+  .langs { color: var(--dim); }
+  footer { margin-top: 48px; color: var(--dim); font-size: 14px; }
 </style>
 </head>
 <body>
 <main>
-<nav><a href="index.html">Meme Mutants</a><a href="datenschutz.html">Datenschutz / Privacy</a><a href="impressum.html">Impressum</a></nav>
-<h1>Impressum</h1>
-<p class="lead">Informationen gemäß § 5 E-Commerce-Gesetz und Offenlegung gemäß § 25 Mediengesetz</p>
+<header><img src="icon.png" alt=""><a href="index.html">Meme Mutants</a></header>
+<h1>Impressum<br><small>Legal notice</small></h1>
+<p class="langs">Informationen gemäß § 5 E-Commerce-Gesetz und Offenlegung gemäß § 25 Mediengesetz</p>
 <div class="card">
-<p><strong>Alexander Luntsch</strong><br>Ichagasse 3<br>1210 Wien<br>Österreich</p>
-<p>E-Mail: <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a></p>
-<p>Unternehmensgegenstand: Entwicklung und Vertrieb von Computerspielen und Apps</p>
-<p>Gewerbe:<br>• Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik (GISA-Zahl 39356598)<br>• Werbeagentur (GISA-Zahl 39356581)<br>• Handelsgewerbe mit Ausnahme der reglementierten Handelsgewerbe und Handelsagent (GISA-Zahl 38041167)<br>Gewerbebehörde: Magistratisches Bezirksamt für den 21. Bezirk<br>Mitglied der Wirtschaftskammer Wien<br>Anwendbare Rechtsvorschriften: Gewerbeordnung, abrufbar unter <a href="https://www.ris.bka.gv.at">www.ris.bka.gv.at</a></p>
+<strong>Alexander Luntsch</strong><br>Ichagasse 3<br>1210 Wien<br>Österreich<br>
+E-Mail: <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a>
 </div>
-<h2>Blattlinie</h2>
-<p>Informationen über das Spiel Meme Mutants sowie Support für seine Spielerinnen und Spieler.</p>
-<h2>Online-Streitbeilegung</h2>
-<p>Verbraucher können sich mit Beschwerden an den Anbieter unter der oben genannten E-Mail-Adresse wenden.</p>
-<h2>Legal notice (English)</h2>
-<p>Alexander Luntsch, Ichagasse 3, 1210 Vienna, Austria · <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a></p>
-<footer>© 2026 Alexander Luntsch · <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a></footer>
+<p><strong>Unternehmensgegenstand:</strong> Entwicklung und Vertrieb von Computerspielen und Apps</p>
+<p><strong>Gewerbe:</strong><br>
+Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik (GISA-Zahl 39356598)<br>
+Werbeagentur (GISA-Zahl 39356581)<br>
+Handelsgewerbe mit Ausnahme der reglementierten Handelsgewerbe und Handelsagent (GISA-Zahl 38041167)</p>
+<p><strong>Gewerbebehörde:</strong> Magistratisches Bezirksamt für den 21. Bezirk<br>
+Mitglied der Wirtschaftskammer Wien<br>
+Anwendbare Rechtsvorschriften: Gewerbeordnung, abrufbar unter <a href="https://www.ris.bka.gv.at">www.ris.bka.gv.at</a></p>
+<p><strong>Blattlinie:</strong> Informationen über das Spiel Meme Mutants sowie Support für seine Spielerinnen und Spieler.</p>
+<p class="langs">Legal notice: Alexander Luntsch, Ichagasse 3, 1210 Vienna, Austria, saschaluntsch@gmail.com</p>
+
+<footer><a href="index.html">Support</a> · <a href="privacy.html">Datenschutz / Privacy</a> · <a href="impressum.html">Impressum</a></footer>
 </main>
 </body>
 </html>

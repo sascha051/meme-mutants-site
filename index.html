@@ -3,43 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meme Mutants</title>
+<title>Meme Mutants – Support</title>
 <style>
-:root{--bg:#faf7ff;--fg:#1d1530;--muted:#5d5470;--card:#fff;--line:#e4dcf2;--accent:#7a2cf0}
-@media (prefers-color-scheme:dark){:root{--bg:#141020;--fg:#efeaf8;--muted:#a89fbd;--card:#1e1830;--line:#342a4a;--accent:#b88cff}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:760px;margin:0 auto;padding:32px 16px 48px}
-nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:28px;font-size:15px}
-a{color:var(--accent)}
-h1{font-size:30px;line-height:1.2;margin:0 0 8px}
-h2{font-size:21px;margin:32px 0 8px}
-.lead{color:var(--muted);margin-top:0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
-ul{padding-left:22px}
-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  :root { --bg: #1b0f33; --panel: #2e1b52; --text: #f4efff; --dim: #b0a8c8; --accent: #7cff6b; --gold: #ffc928; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f6f2ff; --panel: #ffffff; --text: #22163b; --dim: #5b5170; --accent: #1f8f2c; --gold: #9a6a00; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header img { width: 64px; height: 64px; border-radius: 15px; }
+  header a { color: var(--text); text-decoration: none; font-weight: 800; font-size: 22px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 24px 0 8px; }
+  h1 small { color: var(--dim); font-size: 20px; font-weight: 600; }
+  h2 { margin-top: 40px; padding-top: 16px; border-top: 1px solid color-mix(in srgb, var(--dim) 35%, transparent); color: var(--gold); }
+  li { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  .card { background: var(--panel); border-radius: 18px; padding: 18px 20px; margin: 16px 0; }
+  .langs { color: var(--dim); }
+  footer { margin-top: 48px; color: var(--dim); font-size: 14px; }
 </style>
 </head>
 <body>
 <main>
-<nav><a href="index.html">Meme Mutants</a><a href="datenschutz.html">Datenschutz / Privacy</a><a href="impressum.html">Impressum</a></nav>
-<h1>Meme Mutants</h1>
-<p class="lead">Merge, Mutate &amp; Mutant Chess – ein Spiel für iPhone.</p>
+<header><img src="icon.png" alt=""><a href="index.html">Meme Mutants</a></header>
+<h1>Meme Mutants – Support</h1>
+<p>Sammeln, verschmelzen, mutieren, kämpfen: ein Idle-Merge-Spiel mit taktischen Mutant-Chess-Duellen.<br>
+<span class="langs">Collect, merge, mutate, fight: an idle merge game with tactical Mutant Chess battles.</span></p>
+
 <div class="card">
-<p>In einem geheimen Labor ist etwas schiefgelaufen: Bananen machen Liegestütze, Tauben gründen eine Mafia und der Kühlschrank öffnet sich um 3 Uhr nachts von selbst.</p>
-<ul>
-<li>84 absurde Mutanten in 15 Familien verschmelzen und weiterentwickeln</li>
-<li>Mutant Chess: taktische Duelle mit Karten und Schachzügen</li>
-<li>30 Kampagnen-Kämpfe gegen Story-Bosse</li>
-<li>Online-Duelle gegen Freunde per Code</li>
-<li>Keine Werbung, keine Konten, keine In-App-Käufe</li>
-</ul>
+<strong>Kontakt / Contact</strong><br>
+E-Mail: <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a><br>
+<span class="langs">Bitte schreib uns deinen Spielernamen und dein iPhone-Modell. / Please include your player name and iPhone model.</span>
 </div>
-<h2>Support</h2>
-<p>Fragen, Fehler oder Ideen? Schreib an <a href="mailto:saschaluntsch@gmail.com?subject=Meme%20Mutants">saschaluntsch@gmail.com</a>. Wir antworten meist innerhalb weniger Tage.</p>
-<h2>English</h2>
-<p>Meme Mutants is a merge-and-battle game for iPhone: merge absurd mutants, build your deck and win tactical chess-meets-cards duels. Support: <a href="mailto:saschaluntsch@gmail.com?subject=Meme%20Mutants">saschaluntsch@gmail.com</a></p>
-<footer>© 2026 Alexander Luntsch · <a href="mailto:saschaluntsch@gmail.com">saschaluntsch@gmail.com</a></footer>
+
+<h2 id="de">Häufige Fragen</h2>
+<p><strong>Mein Fortschritt ist nach einer Neuinstallation weg.</strong><br>
+Öffne das Spiel und warte ein paar Sekunden: Ist der Cloud-Spielstand an, erscheint „PROGRESS FOUND!“. Auf einem
+neuen iPhone muss der iCloud-Schlüsselbund aktiv sein. Alternativ: auf dem alten Handy unter Einstellungen →
+CLOUD SAVE einen Übertragungscode holen und auf dem neuen Handy eingeben.</p>
+<p><strong>Ich habe Diamanten gekauft, aber nichts bekommen.</strong><br>
+Starte das Spiel neu. Apple liefert unvollständige Käufe beim nächsten Start erneut aus. Hilft das nicht, schreib uns.</p>
+<p><strong>Wie lösche ich meine Online-Daten?</strong><br>
+Einstellungen → CLOUD SAVE → DELETE ONLINE DATA. Cloud-Spielstand und Ranglisten-Eintrag werden gelöscht.</p>
+<p><strong>Das Duell sagt „different game version“.</strong><br>
+Beide Spieler brauchen die neueste Version aus dem App Store.</p>
+
+<h2 id="en">FAQ</h2>
+<p><strong>My progress is gone after reinstalling.</strong><br>
+Open the game and wait a few seconds: with cloud save on, “PROGRESS FOUND!” appears. On a new iPhone, iCloud
+Keychain must be on. Or get a transfer code on the old phone (Settings → CLOUD SAVE) and enter it on the new one.</p>
+<p><strong>I bought diamonds but didn't get them.</strong><br>
+Restart the game – Apple re-delivers unfinished purchases on the next start. If that doesn't help, contact us.</p>
+<p><strong>How do I delete my online data?</strong><br>
+Settings → CLOUD SAVE → DELETE ONLINE DATA removes your cloud save and leaderboard entry.</p>
+<p><strong>A duel says “different game version”.</strong><br>
+Both players need the latest version from the App Store.</p>
+
+<p><a href="privacy.html">Datenschutzerklärung / Privacy Policy</a></p>
+<footer><a href="index.html">Support</a> · <a href="privacy.html">Datenschutz / Privacy</a> · <a href="impressum.html">Impressum</a></footer>
 </main>
 </body>
 </html>
